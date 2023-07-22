@@ -1,6 +1,12 @@
+using Cagem_CQRS.Cqrs.Handlers;
+using Cagem_CQRS.Dal;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<Context>();
+builder.Services.AddScoped<GetProductQueryHandler>();
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
