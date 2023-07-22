@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cagem_CQRS", "Cagem_CQRS\Cagem_CQRS.csproj", "{D66BF559-2825-43DC-8821-AB473AE8A407}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D66BF559-2825-43DC-8821-AB473AE8A407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66BF559-2825-43DC-8821-AB473AE8A407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66BF559-2825-43DC-8821-AB473AE8A407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66BF559-2825-43DC-8821-AB473AE8A407}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88CAC388-F662-4D71-86E7-CC75490BA022}
+	EndGlobalSection
+EndGlobal
